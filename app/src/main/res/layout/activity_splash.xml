@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_splash.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mm"
+        android:scaleType="centerCrop" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingAnimationView"
+        android:layout_width="391dp"
+        android:layout_height="415dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/load" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/RobotoText"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="62dp"
+        android:text="LOADING"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom|center" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/RobotoText"
+        android:paddingStart="16dp"
+        android:layout_marginTop="62dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="62dp"
+        android:text="LineB Game"
+        android:textColor="@color/white"
+        android:layout_gravity="top|center" />
+</FrameLayout>

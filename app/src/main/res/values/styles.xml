@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Стиль с шрифтом Roboto -->
+    <style name="RobotoText">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">60dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="Text">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+
+</resources>

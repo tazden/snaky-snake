@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mm"
     tools:context=".MainActivity">
 
-    <com.levaniphoenix.mysnakeapp.GameBoard
+    <com.linebgame.linebgame.GameBoard
         android:id="@+id/gameBoard"
         android:layout_width="300dp"
         android:layout_height="400dp"
